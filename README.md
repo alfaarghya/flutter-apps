@@ -21,5 +21,5 @@ flutter run
 
 ### 1. Currency Converter
 
-<img src='./public/CurrencyConverteDemo1.jpg'>
-<img src='./public/CurrencyConverteDemo2.jpg'>
+<img src='./public/CurrencyConverteDemo1.jpg' width="300">
+<img src='./public/CurrencyConverteDemo2.jpg' width="300">
