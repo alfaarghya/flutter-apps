@@ -16,7 +16,7 @@ class _StateWidget<CurrencyConverterApp> extends State {
     return Scaffold(
         backgroundColor: const Color(0xFF000000),
         appBar: AppBar(
-          backgroundColor: Color(0xFF242424),
+          backgroundColor: const Color(0xFF242424),
           foregroundColor: Colors.white,
           centerTitle: true,
           title: const Text('Currency Converter'),
@@ -28,10 +28,10 @@ class _StateWidget<CurrencyConverterApp> extends State {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const Padding(
-                padding: const EdgeInsets.symmetric(vertical: 50),
-                child: const SizedBox(
-                  height: 200,
-                  child: const Column(
+                padding: EdgeInsets.symmetric(vertical: 50),
+                child: SizedBox(
+                  height: 150,
+                  child: Column(
                     children: [
                       Text(
                         "Hello",
@@ -57,7 +57,7 @@ class _StateWidget<CurrencyConverterApp> extends State {
                     color: Color(0xFFFAFAFA)),
               ),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: TextField(
                   controller: textEditingController,
                   keyboardType: TextInputType.number,
